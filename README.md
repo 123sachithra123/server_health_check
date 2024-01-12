@@ -1,45 +1,75 @@
-# server_health_check
+
+# Server Health Check
 Server Health Check is a Python program designed to monitor the status of websites listed in website_monitor.json and maintain a detailed history log in status.txt.
 
-Features
-Website Status Check: Monitors the status of websites listed in website_monitor.json.
+Modify the website_monitor.json file to add or remove websites for monitoring.
+
+
+
+
+
+## Features
+
+Website Status Check:
+Monitors the status of websites listed in website_monitor.json.
+
 Status Logging: Keeps a detailed log of website status changes in status.txt.
+
 Alerts: Generates alerts for different status scenarios, including a warning tone for website downtime.
 Usage
-Clone the Repository:
 
-bash
+
+## Installation
+
 Copy code
+```bash
 git clone https://github.com/123sachithra123/server_health_check.git
-Install Dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
-Configure Websites:
-Modify the website_monitor.json file to add or remove websites for monitoring.
 
-Run the Program:
+```
+    
+## Run Locally
 
-bash
-Copy code
-python website_status_checker.py
-Status Codes
-Website Down:
+Clone the project
 
-Generates a warning tone.
-Logs the status as "Web site down."
-Warning:
+```bash
+  git clone https://github.com/123sachithra123/server_health_check.git
+```
 
-Displays other status scenarios as warnings.
-Logs the detailed status in status.txt.
-Website Up:
+Go to the project directory
 
-Displays the message "Web site is up and running smoothly."
-Logs the status as "Web site is up."
-Configuration
-Modify the website_monitor.json file to add or remove websites for monitoring.
+```bash
+  cd server_health_check
+```
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Install dependencies
+
+```bash
+  pip install -r requirements.txt
+```
+
+Run Python File
+
+```bash
+  Python health.py
+```
+
+
+## Authors
+
+- [@123sachithra123](https://www.github.com/123sachithra123)
+
+
+## License
+
+[This project is licensed under the MIT License - see the LICENSE file for details.](https://choosealicense.com/licenses/mit/)
+
+
+## Socail Media
+
+
+[![Facebook](https://img.shields.io/badge/Facebook-Connect-brightgreen?style=for-the-badge&labelColor=black&logo=facebook)](https://www.facebook.com/StormSUJ)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/udayanga.sachithra/)
+[![Youtube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCTWNQUoDpFgDKZCxnPFGtbA)
 
