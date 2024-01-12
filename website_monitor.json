@@ -1,12 +1,9 @@
 {
     "urls": [
-      "https://cita.world/",
-      "https://insharp.life/",
-      "https://insharp.ae/",
-      "https://insharp.us/",
-      "https://www.bizmo.info/",
-      "https://talkingtrees.info/",
-      "https://insharptechnologies.com/"
+      "https://www.google.com/",
+      "https://www.microsoft.com/",
+      "https://sujstudio.epizy.com/"
+  
     ],
     "check_interval_seconds": 20
   }
